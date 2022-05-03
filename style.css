@@ -1,0 +1,17 @@
+body {
+
+  padding: 20px;
+  background: #f2f2f2;
+}
+img {
+  width: 100%; 
+  height: auto;
+}
+
+.galeria{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+
+}
